@@ -1,9 +1,10 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./module/App.css"
 import Header from "./component/Header"
-import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./component/Footer";
 import Sidebar from "./component/Sidebar";
-import CreatePost from "./component/CreatePost";import PostList from "./component/Postlist";
+import CreatePost from "./component/CreatePost";
+import PostList from "./component/Postlist";
 import { useState } from "react";
 import {PostListProvider} from "./store/post-list.store";
 
